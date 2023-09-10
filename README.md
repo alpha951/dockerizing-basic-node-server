@@ -34,3 +34,5 @@ docker run -it --init --publish 5000:3000 app-from-github:latest
 
 ```
 > The server will run at port 5000 in the host machine
+
+> EXPOSE 3000 also can be used to expose the port 3000 in the container to the host 
